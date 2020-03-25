@@ -18,6 +18,14 @@ module.exports = {
                     {
                         family: `Roboto Mono`,
                         variants: [`300`]
+                    },
+                    {
+                        family:'Roboto Slab',
+                        varians:['300']
+                    },
+                    {
+                        family:'Montserrat',
+                        variants:['300','700','800','500']
                     }
                 ],
             },

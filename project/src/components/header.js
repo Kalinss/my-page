@@ -7,7 +7,7 @@ import {Link} from 'gatsby';
 const Header = (props)=>{
     return(
         <header className='header'>
-            <h1>Kalinin Sergey</h1>
+            <h1>Kalinin Калинин</h1>
             <nav>
                 <ul className="left">
                     <li className='active'> <Link to="/">home</Link></li>
