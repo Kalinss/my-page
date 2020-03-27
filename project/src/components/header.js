@@ -7,12 +7,12 @@ import {Link} from 'gatsby';
 const Header = (props)=>{
     return(
         <header className='header'>
-            <h1>Kalinin Калинин</h1>
+            <h1>Kalinss</h1>
             <nav>
                 <ul className="left">
                     <li className='active'> <Link to="/">home</Link></li>
                     <li><Link to="/blog">blog</Link></li>
-                    <li><a href="">hire me</a></li>
+                    {/*<li><a href="">hire me</a></li>*/}
                 </ul>
                 <ul className="right">
                     <li>

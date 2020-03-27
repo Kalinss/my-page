@@ -72,6 +72,8 @@
       color: #393636;
       cursor: pointer;
       fill: #393636;
+      width: 100%;
+      height: 100%;
       transition: 0.3s ease;
 
       &:hover {
@@ -81,7 +83,8 @@
 
     & li {
       margin-right: 20px;
-
+      max-width: 16px;
+      max-height: 16px;
       &:last-child {
         margin-right: 0;
       }
