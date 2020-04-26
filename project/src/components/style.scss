@@ -3,7 +3,7 @@
 *{
   font-family: $second-font;
   font-weight: 300;
-  color: $main-color;
+  color: #2f2f2f;
 }
 .wrapper {
   width: 610px;
@@ -110,14 +110,25 @@
 
   &__text {
     padding-top: 50px;
-
+    font-weight: 400;
     font-size: 18px;
     line-height: 32px;
     & p {
       margin-bottom: 16px;
-
       &:last-child {
         margin-bottom: 0;
+      }
+    }
+    & ul{
+      margin-bottom: 16px;
+      & li{
+        list-style: disc;
+        margin-left: 40px;
+      }
+      & li:first-child{
+        list-style: none;
+        margin-left: 0;
+        margin-bottom: 10px;
       }
     }
   }
