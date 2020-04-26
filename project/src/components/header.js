@@ -11,7 +11,7 @@ const Header = (props)=>{
             <nav>
                 <ul className="left">
                     <li className='active'> <Link to="/">home</Link></li>
-                    <li><Link to="/blog">blog</Link></li>
+                    <li><Link to="blog">blog</Link></li>
                     {/*<li><a href="">hire me</a></li>*/}
                 </ul>
                 <ul className="right">

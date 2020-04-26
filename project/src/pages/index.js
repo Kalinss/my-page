@@ -1,10 +1,10 @@
 import React from "react"
 
-import {useStaticQuery, graphql} from 'gatsby';
+import {graphql} from 'gatsby';
 import Img from 'gatsby-image';
 
 import Layout from "../components/layout";
-import Header from '../components/header'
+
 
 
 const IndexPage = ({data}) => {
@@ -12,17 +12,51 @@ const IndexPage = ({data}) => {
     return (
         <Layout>
             <main className="main section">
-                {/*<Img className='main__img' fluid={data.image.childImageSharp.fluid} alt=""/>*/}
-                {/*<article className='main__text'>*/}
-                {/*    <p>*/}
-                {/*        Привет как дела твои */}
-                {/*    </p>*/}
-                {/*    <p>*/}
-                {/*        I've been working several years as a Software Engineer to build multiple applications, web and mobile, as well as a frontender and a backender, as a team leader, a company creator and community organizer, but also as a consultant and full time employee, helping and enabling companies deliver high-quality products.*/}
-
-                {/*        With a background in Engineering, and after having completed a Machine Learning course in Technical University of Denmark (DTU) and worked as a Data Scientist trainee, I'm now shifting towards Data Science.*/}
-                {/*    </p>*/}
-                {/*</article>*/}
+                <Img className='main__img' fluid={data.image.childImageSharp.fluid} alt=""/>
+                <article className='main__text'>
+                    <p>
+                        Hello, my name is Sergey.
+                    </p>
+                    <p>
+                        I like beautiful designs, but even more I love frontend developing.
+                    </p>
+                    <ul>
+                       <li>My prefered technologies:</li>
+                        <li>
+                             JavaScript / ECMAScript 5 / ECMAScript 6+
+                        </li>
+                        <li>
+                             HTML / HTML5 and HTML5 api / Pug (Jade) / Twig
+                        </li>
+                        <li>
+                             CSS / CSS3 / SASS (SCSS)
+                        </li>
+                        <li>
+                             React / Redux / jQuery / Lodash
+                        </li>
+                        <li>
+                             Webpack 2+ / Gulp / Babel
+                        </li>
+                        <li>
+                             Handlebars / Mustache
+                        </li>
+                        <li>
+                             Bootstrap / Semantic UI / Foundation
+                        </li>
+                        <li>
+                             NodeJS (beginner level) / Express / MongoDB
+                        </li>
+                        <li>
+                             Git / BEM
+                        </li>
+                        <li>
+                             Adobe Illustrator / Adobe Photoshop
+                        </li>
+                    </ul>
+                    <p>
+                        I also really like JAM stack and functional programming ideas.
+                    </p>
+                </article>
             </main>
 
         </Layout>

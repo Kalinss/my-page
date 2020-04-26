@@ -5,6 +5,7 @@ const Blog = (props)=>{
         <Layout>
             <main className="blog section">
                 <ul className="articles">
+                    123
                     {/*<li className="article">*/}
                     {/*    <h2>*/}
                     {/*        <a href="">*/}
