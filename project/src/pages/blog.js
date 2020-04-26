@@ -5,7 +5,7 @@ const Blog = (props)=>{
         <Layout>
             <main className="blog section">
                 <ul className="articles">
-                    123
+                    1234
                     {/*<li className="article">*/}
                     {/*    <h2>*/}
                     {/*        <a href="">*/}
