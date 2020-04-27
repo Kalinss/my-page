@@ -4,15 +4,17 @@ import {faRss} from "@fortawesome/free-solid-svg-icons";
 import {faMedium, faGithub,faVk,faCodepen} from "@fortawesome/free-brands-svg-icons";
 import {Link} from 'gatsby';
 
+const getActiveLink = (name) => window.location.pathname === name ? 'active':'';
+
 const Header = (props)=>{
+    console.log(window.location.pathname);
     return(
         <header className='header'>
             <h1>Kalinss</h1>
             <nav>
                 <ul className="left">
-                    <li className='active'> <Link to="/">home</Link></li>
-                    <li><Link to="blog">blog</Link></li>
-                    {/*<li><a href="">hire me</a></li>*/}
+                    <li className={getActiveLink('/')}> <Link to="/">home</Link></li>
+                    <li className={getActiveLink('/blog/')}><Link to="blog/">blog</Link></li>
                 </ul>
                 <ul className="right">
                     <li>
@@ -36,4 +38,5 @@ const Header = (props)=>{
         </header>
     )
 };
+
 export default Header;
