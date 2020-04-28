@@ -17,6 +17,11 @@ module.exports = {
                         variants: ['700','400']
                     },
                     {
+                        family:'Open Sans',
+                        variants:['300','400','700'],
+                        subsets: [`latin`,'Cyrillic']
+                    },
+                    {
                         family:'Montserrat',
                         variants:['300','700','800','500']
                     }

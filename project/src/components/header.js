@@ -21,14 +21,18 @@ const Header = (props)=>{
                         <FontAwesomeIcon className='icon'  icon={faMedium}/>
                     </li>
                     <li>
-                        <FontAwesomeIcon className='icon'   icon={faGithub}/>
+                        <a href="https://github.com/Kalinss" target="_blank">
+                            <FontAwesomeIcon className='icon'   icon={faGithub}/>
+                        </a>
                     </li>
                     <li>
-                        <FontAwesomeIcon className='icon'   icon={faVk}/>
+                        <a href="https://vk.com/hidashko" target="_blank">
+                            <FontAwesomeIcon className='icon'   icon={faVk}/>
+                        </a>
                     </li>
-                    <li>
-                        <FontAwesomeIcon className='icon'   icon={faCodepen}/>
-                    </li>
+                    {/*<li>*/}
+                    {/*    <FontAwesomeIcon className='icon'   icon={faCodepen}/>*/}
+                    {/*</li>*/}
                     <li>
                         <FontAwesomeIcon className='icon'   icon={faRss}/>
                     </li>
