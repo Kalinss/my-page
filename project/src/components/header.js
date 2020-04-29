@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faMedium, faGithub,faVk} from "@fortawesome/free-brands-svg-icons";
 import {Link} from 'gatsby';
 
-const getActiveLink = (name) => window.location.pathname === name ? 'active':'';
+// const getActiveLink = (name) => window.location.pathname === name ? 'active':'';
 
 const Header = (props)=>{
     return(
@@ -12,8 +12,8 @@ const Header = (props)=>{
             <h1>Kalinin Sergey</h1>
             <nav>
                 <ul className="left">
-                    <li className={getActiveLink('/')}> <Link to="/">home</Link></li>
-                    <li className={getActiveLink('/blog/')}><Link to="blog/">blog</Link></li>
+                    <li className='active'> <Link to="/">home</Link></li>
+                    <li><Link to="blog/">blog</Link></li>
                 </ul>
                 <ul className="right">
                     <li>
