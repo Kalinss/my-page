@@ -5,26 +5,25 @@ const Blog = (props)=>{
         <Layout>
             <main className="blog section">
                 <ul className="articles">
-                    123
-                    {/*<li className="article">*/}
-                    {/*    <h2>*/}
-                    {/*        <a href="">*/}
-                    {/*            Как забацать пиздатый сайт*/}
-                    {/*        </a>*/}
-                    {/*        <span>➞</span>*/}
-                    {/*    </h2>*/}
-                    {/*    <p>Рыбы (лат. Pisces) — парафилетическая группа (по современной*/}
-                    {/*        кладистической классификации) водных позвоночных животных. Обширная группа ..</p>*/}
-                    {/*    <p>Съедобная часть рыб, а также блюда, приготовленные из них. Содержание. 1 Состав; 2 Классификация; 3 Рыбная промышленность; 4 См.</p>*/}
-                    {/*    <p>Enabling typescript on a React Native codebase. </p>*/}
-                    {/*    <div className="addInfo">*/}
-                    {/*        <span className='date'>25.03.2020</span>*/}
-                    {/*        <span> - </span>*/}
-                    {/*        <span className="read">5 минут</span>*/}
-                    {/*        <span> - </span>*/}
-                    {/*        <span className="type">Разработка</span>*/}
-                    {/*    </div>*/}
-                    {/*</li>*/}
+                    <li className="article">
+                        <h2>
+                            <a href="https://medium.com/@kalinss/%D0%BA%D0%B0%D0%BA-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C-%D1%81%D0%B2%D0%BE%D1%8E-react-ui-%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D1%83-ae8859e1a0c7">
+                                Как создать свою React UI библиотеку
+                            </a>
+                            <span>➞</span>
+                        </h2>
+                        <p>Иногда возникает необходимость создания единого стилевого вида
+                            для нескольких проектов. Для решения этой задачи можно использовать
+                            готовые UI библиотеки веб-компонентов. Но что, если попробовать создать
+                            свою?</p>
+                        <div className="addInfo">
+                            <span className='date'>29.04.2020</span>
+                            <span> - </span>
+                            <span className="read">2 min read</span>
+                            <span> - </span>
+                            <span className="type">development</span>
+                        </div>
+                    </li>
                 </ul>
             </main>
         </Layout>
