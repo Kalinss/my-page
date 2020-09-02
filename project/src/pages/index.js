@@ -6,7 +6,6 @@ import Img from 'gatsby-image';
 import Layout from "../components/layout";
 
 
-
 const IndexPage = ({data}) => {
 
     return (
@@ -21,41 +20,47 @@ const IndexPage = ({data}) => {
                         I like beautiful designs, but even more I love frontend developing.
                     </p>
                     <ul>
-                       <li>My prefered technologies:</li>
+                        <li>My prefered technologies:</li>
                         <li>
-                             JavaScript / ECMAScript 5 / ECMAScript 6+
+                            JavaScript / ECMAScript 5 / ECMAScript 6+ / TypeScript
                         </li>
                         <li>
-                             HTML / HTML5 and HTML5 api / Pug (Jade) / Twig
+                            HTML / HTML5 and HTML5 api / Pug (Jade) / Twig
                         </li>
                         <li>
-                             CSS / CSS3 / SASS (SCSS)
+                            CSS / CSS3 / SASS (SCSS)
                         </li>
                         <li>
-                             React / Redux / jQuery / Lodash
+                            SVG / Canvas
                         </li>
                         <li>
-                             Webpack 2+ / Gulp / Babel
+                            React / Redux / MobX
                         </li>
                         <li>
-                             Handlebars / Mustache
+                            jQuery / Lodash
                         </li>
                         <li>
-                             Bootstrap / Semantic UI / Foundation
+                            Webpack 2+ / Gulp / Babel / Parsel.js
                         </li>
                         <li>
-                             NodeJS (beginner level) / Express / MongoDB
+                            Handlebars / Mustache
                         </li>
                         <li>
-                             Git / BEM
+                            Bootstrap / Semantic UI / Foundation
                         </li>
                         <li>
-                             Adobe Illustrator / Adobe Photoshop
+                            Prettier / ESLint
+                        </li>
+                        <li>
+                            NodeJS (beginner level) / Express / MongoDB
+                        </li>
+                        <li>
+                            Git / BEM
+                        </li>
+                        <li>
+                            Adobe Illustrator / Adobe Photoshop
                         </li>
                     </ul>
-                    <p>
-                        I also really like JAM stack and functional programming ideas.
-                    </p>
                 </article>
             </main>
 
